@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fantasy Keris Diorama
+* source:	https://sketchfab.com/3d-models/fantasy-keris-diorama-ddc7798ccb4640dca57d551540b7fba9
+* author:	Adipriatna (https://sketchfab.com/adipriatna)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fantasy Keris Diorama" (https://sketchfab.com/3d-models/fantasy-keris-diorama-ddc7798ccb4640dca57d551540b7fba9) by Adipriatna (https://sketchfab.com/adipriatna) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.2/css/boxicons.min.css" integrity="sha512-yF/VfQv/eGOwfFv8xZO3yB1+cNShHUMT/E6ZSXUqj6oXZKXm2t/2hGqMx4Gd4jw8LXNX7G/+Y4y2pQ0Fg1ME4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Indonesian Cultural Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- <=============== NAVBAR ===============> -->
+
+    <nav class="navbar">
+        <div class="logo">IndoCulture</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="about.html">Cultural Insights</a></li>
+            <!-- More links here -->
+        </ul>
+
+        <div class="language-toggle">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="id">Indonesian</option>
+                <span class="language-chevron"><i class='bx bx-chevron-down'></i></span>
+            </select>
+        </div>        
+        
+        <div class="theme-toggle">
+            <span class="light-icon"><box-icon name='sun' color='#ffffff' ></box-icon></span> <!-- Sun Icon -->
+            <label class="theme-switch">
+                <input type="checkbox" id="theme-toggle-checkbox">
+                <span class="theme-slider round"></span>
+            </label>
+            <span class="dark-icon"><box-icon name='moon' type='solid' color='#ffffff' ></box-icon></span> <!-- Moon Icon -->
+        </div>
+
+    </nav>
+
+    <!-- <=============== HOMEPAGE ===============> -->
+
+    <section class="homepage">
+        <video autoplay muted loop id="background-video">
+            <source src="assets/video/indonesian_culture.mp4" muted loop type="video/mp4">
+        </video>
+        
+        <div class="overlay"></div>
+    
+        <div class="homepage-content">
+            <h1>Discover Indonesia: A Journey Through Culture and Heritage</h1>
+            <p>Explore the Intricate Elegance of Batik: Unraveling Indonesia's Cultural Heritage, Weaving History into Modern Expression.</p>
+            <button onclick="location.href='#cultural-insights'">Explore More <i class='bx bx-right-arrow-alt'></i></button>
+        </button>
+        </div>
+    </section>
+
+    <!-- <=============== ABOUT SECTION ===============> -->
+    
+    <section id="about">
+        <div class="about-title">About</div> 
+        <div id="about-model"></div> 
+        <div class="about-image"></div> 
+        <div class="about-content">
+            <h1> Embracing Indonesia's Cultural Legacy </h1>
+            <p>
+                Welcome to the world of Batik, a cherished art form deeply rooted in Indonesia's rich cultural heritage. Batik isn't just a fabric; it's an artistic masterpiece that weaves stories of tradition, craftsmanship, and symbolism.
+            </p>
+            
+            <p>
+                Each batik piece is a testament to meticulous craftsmanship, where artisans use wax to create intricate patterns on fabric before delicately dyeing it, resulting in mesmerizing designs that hold deep cultural significance.
+            </p>
+
+            <p>
+                Each batik piece is a testament to meticulous craftsmanship, where artisans use wax to create intricate patterns on fabric before delicately dyeing it, resulting in mesmerizing designs that hold deep cultural significance.
+            </p>
+            
+            <a href="about.html"></a>
+                <button>Learn More</button>
+            </a>
+        </div>
+    </section>    
+
+    <!-- <=============== PLACES ===============> -->
+    
+    <section class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="assets/banner/banner-pesisir.jpg">
+                <div class="content">
+                    <p>
+                        Cirebon, Pekalongan, dan Lasem
+                    </p>
+                    <h2> Batik Pesisir</h2>
+                    <p>
+                        Batik Pesisiran memiliki pengaruh dari budaya Tionghoa dan Arab. Cirebon terkenal dengan motif-motif geometris yang kaya warna, Pekalongan dikenal dengan motif-motif yang lebih beragam dan berkembang, sementara Lasem memiliki motif dengan warna-warna cerah dan klasik.
+                    </p>
+                    <a href="pesisir.html">
+                    <button class="content-button">Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/banner-jogja.jpg">
+                <div class="content">
+                    <p>Yogyakarta dan Surakarta (Solo)</p>
+                    <h2> Batik Jogja </h2>
+                    <p>
+                        Batik dari daerah ini memiliki gaya khas Jawa yang lebih klasik dan tradisional. Batik Yogyakarta cenderung memiliki motif yang lebih halus dan elegan, sementara batik dari Solo cenderung lebih berani dan kuat dalam motifnya.
+                    </p>
+                    <a href="jogja.html">
+                    <button class="content-button">Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/banner-madura.jpg">
+                <div class="content">
+                    <p> Pulau Madura</p>
+                    <h2>Batik Madura </h2>
+                    <p>
+                        Batik Madura memiliki ciri khas pada penggunaan warna yang cerah dan motif yang cukup sederhana. Motifnya sering kali terinspirasi dari alam dan tumbuhan.
+                    </p>
+                    <a href="madura.html">
+                    <button class="content-button">Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/banner-tuban.jpg">
+                <div class="content">
+                    <p> Tuban </p>
+                    <h2>Batik Tuban </h2>
+                    <p>
+                        Batik ini memiliki kekhasan dalam motif-motif geometris dan ukiran yang rumit serta berwarna cerah.
+                    </p>
+                    <a href="tuban.html">
+                    <button class="content-button">Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/banner-banyumas.jpg">
+                <div class="content">
+                    <p>Banyumas</p>
+                    <h2>Batik Banyumas </h2>
+                    <p>
+                        Batik dari Banyumas dikenal dengan motif-motif yang lebih sederhana dengan warna yang lembut dan alamiah.
+                    </p>
+                    <a href="banyumas.html">
+                    <button class="content-button">Learn More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="assets/banner/pesisir.jpg">
+                <div class="content">
+                    Batik Pesisiran
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/jogja.jpg">
+                <div class="content">
+                    Batik Jogja
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/madura.jpg">
+                <div class="content">
+                    Batik Madura
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/tuban.jpg">
+                <div class="content">
+                    Batik Tuban 
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/banner/banyumas.jpg">
+                <div class="content">
+                    Batik Banyumas
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="batik-gallery">
+        <div class="gallery-container">
+            <div class="gallery-header">
+                <h1>Types of Batik</h1>
+                <p>Explore the rich tapestry of Indonesian arts and musical heritage.</p>
+            </div>
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pesisir"> Pesisir </button>
+                <button class="filter-btn" data-filter="tuban"> Tuban </button>
+                <button class="filter-btn" data-filter="madura"> Madura </button>
+                <button class="filter-btn" data-filter="jogja"> Jogja </button>
+                <button class="filter-btn" data-filter="banyumas"> Banyumas </button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="banyumas">
+                    <img src="assets/image/banyumas1.jpg" alt="Indonesian Art">
+                    <div class="item-info">
+                        <h3> Batik Banyumas </h3>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pesisir">
+                    <img src="assets/image/pesisir1.jpeg" alt="Indonesian Art">
+                    <div class="item-info">
+                        <h3> Batik Pesisir</h3>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="jogja">
+                    <img src="assets/image/jogja1.jpg" alt="Indonesian Art">
+                    <div class="item-info">
+                        <h3> Batik Jogja </h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="madura">
+                    <img src="assets/image/madura1.jpg" alt="Indonesian Art">
+                    <div class="item-info">
+                        <h3>Batik Madura</h3>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pesisir">
+                    <img src="assets/image/pesisir2.jpg" alt="Indonesian Art">
+                </div>
+                
+                <div class="gallery-item" data-category="tuban">
+                    <img src="assets/image/tuban1.jpg" alt="Indonesian Art">
+                    <div class="item-info">
+                        <h3>Batik Tuban</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="madura">
+                    <img src="assets/image/madura2.jpg" alt="Indonesian Art">
+                </div>
+
+                <div class="gallery-item" data-category="banyumas">
+                    <img src="assets/image/banyumas2.jpg" alt="Indonesian Art">
+                </div>
+
+                <div class="gallery-item" data-category="tuban">
+                    <img src="assets/image/tuban2.jpg" alt="Indonesian Art">
+                </div>
+
+                <div class="gallery-item" data-category="jogja">
+                    <img src="assets/image/jogja2.jpg" alt="Indonesian Art">
+                </div>
+
+            </div>
+        </div>
+    </section>    
+
+    <!-- <=============== HOVERING CARDS ===============> -->
+
+    <section id="batik-fashion">
+        <div class="fashion-header">
+            <h1>Batik in Fashion</h1>
+            <p>Explore the rich tapestry of Indonesian arts and musical heritage.</p>
+        </div>
+       
+        <div class="cards-row">
+            <div class="batik-card move-up" style="background-image: url('https://media.istockphoto.com/id/1468433582/id/foto/wanita-berjalan-di-jembatan-tali-di-hutan-rimbun-a.jpg?s=612x612&w=0&k=20&c=BKfBkCPnJB3Vm3EECZ207uV5aCMPORZH1bKmtl9f_SQ=');">
+                <div class="card-content">
+                    <h2>01</h2>
+                    <h3>Card One</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Incidunt minima harum repellat non. Unde, magnam!
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="batik-card" style="background-image: url('https://media.istockphoto.com/id/1455708318/id/foto/pemandangan-udara-cagar-alam-bakau-sungei-buloh-di-singapura.jpg?s=612x612&w=0&k=20&c=QObO2AZcYrcVaiGP6FcAfM1K7EaImVOvkBpG3qGShts=');">
+                    <div class="card-content">
+                        <h2>02</h2>
+                        <h3>Card Two</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Incidunt minima harum repellat non. Unde, magnam!
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="batik-card move-up"  style="background-image: url('https://media.istockphoto.com/id/1499446045/id/foto/berjalan-jalan-di-sepanjang-boardwalk.jpg?s=612x612&w=0&k=20&c=GV-J9ND5-CpwifDxMYCvbSIjDOdU2KDe2JZ9wX974t8=');">
+                    <div class="card-content">
+                        <h2>03</h2>
+                        <h3>Card Three</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Incidunt minima harum repellat non. Unde, magnam!
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="JS/vanilla-tilt.js"></script>
+    <script src="JS/card-tilt.js"></script>
+    <script src="JS/dark.js"></script>
+    <script src="JS/language.js"></script>
+    <script src="JS/about-model.js"></script>
+    <script src="JS/carousel.js"></script>
+    <script src="JS/art-music.js"></script>
+    <script src="JS/filter-btn.js"></script>
+    <script src="JS/filter.js"></script>
+    <script src="JS/cards.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+
+</body>
+</html>
